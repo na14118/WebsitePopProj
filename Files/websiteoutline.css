@@ -1,0 +1,102 @@
+body {
+text-align: center;
+  font-size: 80%;
+  font-family: arial, helvetica, geneva, sans-serif;
+  margin-top:0px;
+ margin-left:160px;
+ margin-right:0px;
+
+}
+
+footer {
+text-align: center;
+  font-size: 80%;
+  text-align: center;
+  clear: both;
+}
+
+h1 {
+text-align: center;
+font-size: 110%;
+font-family: arial, helvetica, geneva, sans-serif;
+}
+body {
+text-align: center;
+   font-size: 120%;
+   font-family: arial, helvetica, geneva, sans-serif;
+   border-style: solid;
+   border-width: 5px;
+   border-color: #B0C4DE;
+}
+footer {
+text-align: center;
+   font-size: 80%;
+   text-align: center;
+   clear: both;
+   border-top-style: solid;
+   border-top-width: 5px;
+   border-top-color: #B0C4DE;
+   margin-top: 0;
+   padding: 0;
+}
+
+header {
+text-align: center;
+   border-bottom-style: solid;
+   border-bottom-width: 5px;
+   border-bottom-color: #B0C4DE;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 4px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.floatright {
+   float: right;
+   clear: right;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+table,
+td {
+	text-align: center;
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+	text-align: center;
+    color: #fff;
+}
